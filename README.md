@@ -26,13 +26,13 @@ To create an NPC, follow these steps:
 #### NPC Config Template
 ```
 	{
-		coords = vector3(1830.26, 3683.2, 34.33),						-- Coords (Required)
-		heading = 112.19,												-- Heading (Required)
-		model = "mp_m_freemode_01",										-- Model (Required)
-		props = {														-- Props (Only Required if using model "mp_m_freemode_01" or "mp_f_freemode_01")
-            { 0, 130, 0 },
+		coords = vector3(1830.26, 3683.2, 34.33),				-- Coords (Required)
+		heading = 112.19,							-- Heading (Required)
+		model = "mp_m_freemode_01",						-- Model (Required)
+		props = {								-- Props (Only Required if using model "mp_m_freemode_01" or "mp_f_freemode_01")
+         		{ 0, 130, 0 },
 		},
-		components = {													-- Apperance (Only Required if using model "mp_m_freemode_01" or "mp_f_freemode_01")
+		components = {								-- Apperance (Only Required if using model "mp_m_freemode_01" or "mp_f_freemode_01")
 			{ 1, 0, 0 },
 			{ 3, 165, 0 },
 			{ 4, 25, 1 },
@@ -45,9 +45,9 @@ To create an NPC, follow these steps:
 			{ 11, 200, 0 },
 		},
 
-		emote = "WORLD_HUMAN_CLIPBOARD",								-- Emote/Task to Play (Line is Optional. Delete to Remove)
+		emote = "WORLD_HUMAN_CLIPBOARD",					-- Emote/Task to Play (Line is Optional. Delete to Remove)
 		
-		blip = {														-- Map Blip (Line is Optional. Delete to Remove)
+		blip = {								-- Map Blip (Line is Optional. Delete to Remove)
 			sprite = 60,
 			color = 38,
 			scale = 0.8,
@@ -55,9 +55,9 @@ To create an NPC, follow these steps:
 			name = "Desk Officer",
 		},
 		
-		name = "Desk Officer",											-- NPC Name (Required)
+		name = "Desk Officer",							-- NPC Name (Required)
 		text = "Press ~o~[E]~w~ to talk to the ~y~Desk Officer",		-- Text Above NPC (Required)
-		event = "EmergScripts:DeskOfficer",								-- Client Event to Trigger (Required)
+		event = "EmergScripts:DeskOfficer",					-- Client Event to Trigger (Required)
 		debug = false													
 	},
 ```
