@@ -81,11 +81,11 @@ Components Table Row (First Number)
 
 Props Table Row (First Number)
 ```
-0: Hat
-1: Glass
-2: Ear
-6: Watch
-7: Bracelet
+	0: Hat
+	1: Glass
+	2: Ear
+	6: Watch
+	7: Bracelet
 ```
 
 # Resource Implementation
